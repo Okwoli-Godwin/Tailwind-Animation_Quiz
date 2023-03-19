@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom"
 import sound from "../../assets/sound.mp3"
 
 const Hero = () => {
@@ -35,7 +36,9 @@ const Hero = () => {
                   </select>
               </div>
 
-              <button className="w-[100%] h-[40px] bg-[#5572B9] text-white cursor-pointer rounded mt-8">Start Game</button>
+              <NavLink to="/gamezone">
+                  <button className="w-[100%] h-[40px] bg-[#5572B9] text-white cursor-pointer rounded mt-8">Start Game</button>
+              </NavLink>
           </div>
     </div>
   )
