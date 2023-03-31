@@ -1,4 +1,4 @@
-import sound from "./assets/sound.mp3"
+import sound from "../../assets/sound.mp3"
 
 const Hero = () => {
 
