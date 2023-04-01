@@ -10,7 +10,7 @@ export const Elements = createBrowserRouter([
     element: <HomeLayout />,
     children: [
       {
-        path: "/solution",
+        path: "/gamezone",
         element: <Gamezone/>,
       },
     ],
