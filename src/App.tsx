@@ -5,7 +5,7 @@ import './App.css'
 import Animation2 from './Animation2'
 import Animation1 from './Animation1'
 import Videobackground from './Videobackground'
-import Hero from './Hero'
+import Hero from './pages/Landingpage/Hero'
 
 function App() {
 
