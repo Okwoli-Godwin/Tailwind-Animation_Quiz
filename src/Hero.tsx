@@ -10,6 +10,17 @@ const Hero = () => {
                   <h2 className="text-white text-sm">Number of Questions</h2>
                   <input type="number" className="w-[100%] h-[40px] bg-[#fff] mt-1 rounded outline-none pl-2"/>
               </div>
+
+              <div className="flex flex-col mt-8">
+                  <h2 className="text-white text-sm">Select Category</h2>
+                  <select name="" id="" className="w-[100%] h-[40px] bg-[#fff] mt-1 rounded outline-none pl-2">
+                      <option selected>Choose a category</option>
+                      <option value="US">React</option>
+                      <option value="CA">Node.js</option>
+                      <option value="FR">Tailwind</option>
+                      <option value="DE">Redux</option>
+                  </select>
+              </div>
           </div>
     </div>
   )
