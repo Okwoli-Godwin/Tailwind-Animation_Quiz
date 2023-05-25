@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-import img from "./src/assets/millionaire.png"
 export default {
   content: [
     "./index.html",
@@ -8,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero': "url('../src/assets/millionaire.png')"
+        'hero': "url('../src/assets/millionare.png')"
       }
     },
   },

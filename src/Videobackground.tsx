@@ -8,7 +8,7 @@ const Videobackground = () => {
           <video className='w-full h-screen object-cover absolute inset-0'
               src={myVideo}
               autoPlay={true}
-              muted
+              // muted
               playsInline
               loop={true}>
             </video>

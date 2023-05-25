@@ -5,14 +5,13 @@ import './App.css'
 import Animation2 from './Animation2'
 import Animation1 from './Animation1'
 import Videobackground from './Videobackground'
+import Hero from './Hero'
 
 function App() {
 
   return (
-    <div className='w-full'>
-      <Animation1 />
-      <Animation2 />
-      <Videobackground />
+    <div className='w-full h-screen'>
+      <Hero />
     </div>
   )
 }
