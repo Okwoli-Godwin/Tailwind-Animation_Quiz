@@ -4,7 +4,7 @@ const Hero = () => {
 
   return (
       <div className='w-full h-screen bg-hero flex justify-center items-center'>
-          <audio autoPlay loop>
+          <audio autoPlay={true} loop>
               <source src={ sound} type=""/>
           </audio>
           <div className='w-[390px] h-[490px] bg-[rgba(0,0,0,0.5)] rounded p-5 flex-col'>
