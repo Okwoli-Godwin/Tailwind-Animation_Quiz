@@ -21,6 +21,15 @@ const Hero = () => {
                       <option value="DE">Redux</option>
                   </select>
               </div>
+
+              <div className="flex flex-col mt-8">
+                  <h2 className="text-white text-sm">Select Difficulty</h2>
+                  <select name="" id="" className="w-[100%] h-[40px] bg-[#fff] mt-1 rounded outline-none pl-2">
+                      <option value="US">easy</option>
+                      <option value="CA">medium</option>
+                      <option value="FR">hard</option>
+                  </select>
+              </div>
           </div>
     </div>
   )
