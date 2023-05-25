@@ -30,6 +30,8 @@ const Hero = () => {
                       <option value="FR">hard</option>
                   </select>
               </div>
+
+              <button className="w-[100%] h-[40px] bg-[#5572B9] text-white cursor-pointer rounded mt-8">Start Game</button>
           </div>
     </div>
   )
