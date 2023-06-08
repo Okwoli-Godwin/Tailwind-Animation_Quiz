@@ -10,7 +10,7 @@ import Hero from './pages/Landingpage/Hero'
 function App() {
 
   return (
-    <div className='w-full h-screen bg-black'>
+    <div>
       <Hero />
     </div>
   )
